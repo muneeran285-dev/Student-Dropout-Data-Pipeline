@@ -1,4 +1,4 @@
-# Student Dropout Data Engineering Pipeline
+# 📚Student Dropout Data Engineering Pipeline
 
 *Student:* Muneera Almojel
 
@@ -15,7 +15,7 @@ This project demonstrates an end-to-end data engineering pipeline using a real-w
 The pipeline starts with raw data ingestion, followed by data validation, data cleaning, Bronze, Silver, and Gold layers. Finally, a Random Forest machine learning model is used to predict student academic status.
 
 
-#  Project Objectives
+#  🎯Project Objectives
 
 - Load the raw dataset.
 - Validate data quality.
@@ -24,7 +24,7 @@ The pipeline starts with raw data ingestion, followed by data validation, data c
 - Train a Random Forest classification model.
 - Evaluate the model performance.
 
-# Dataset
+#📂 Dataset
 
 The project uses a real student dropout dataset containing demographic, academic, and socioeconomic attributes.
 
@@ -35,7 +35,7 @@ Target Classes:
 - Enrolled
 
 
-#  Pipeline Architecture
+# ⚙️ Pipeline Architecture
 
 1. Data Ingestion
 2. Dataset Overview
@@ -46,7 +46,7 @@ Target Classes:
 7. Machine Learning
 8. Model Evaluation
 
-#  Technologies Used
+# 🛠️ Technologies Used
 
 - Python
 - Pandas
@@ -57,7 +57,7 @@ Target Classes:
 - GitHub
 
 
-#  Repository Structure
+# 📁 Repository Structure
 
 
 Student-Performance-Data-Pipeline/
@@ -71,7 +71,7 @@ Student-Performance-Data-Pipeline/
 
 
 
-# Results
+# 📊 Results
 
 The pipeline successfully processed the dataset through Bronze, Silver, and Gold layers.
 
@@ -83,6 +83,6 @@ A Random Forest classifier was trained to predict student academic status and ev
 
 
 
-#  Conclusion
+# ✅ Conclusion
 
 This project demonstrates a complete data engineering workflow integrated with machine learning. It provides a structured pipeline that transforms raw data into valuable insights for predicting student academic outcomes.
