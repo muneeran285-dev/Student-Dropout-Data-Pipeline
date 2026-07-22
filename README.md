@@ -24,7 +24,8 @@ The pipeline starts with raw data ingestion, followed by data validation, data c
 - Train a Random Forest classification model.
 - Evaluate the model performance.
 
-#📂 Dataset
+
+# 📂Dataset
 
 The project uses a real student dropout dataset containing demographic, academic, and socioeconomic attributes.
 
