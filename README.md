@@ -5,6 +5,7 @@
 *Major:* Information Systems
 
 *Program:* SDAIA Academy – Data Engineering for AI Systems (DAICO)
+
 *Trainer:* Mohammed Albeladi
 
 # 📖 Project Overview
