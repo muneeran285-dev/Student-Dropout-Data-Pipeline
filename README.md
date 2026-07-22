@@ -59,16 +59,16 @@ Target Classes:
 
 # 📁 Repository Structure
 
-
 Student-Performance-Data-Pipeline/
-
+```text
+Student-Dropout-Data-Pipeline/
 │── Student_Dropout_Data_Pipeline.ipynb
 │── Data dropout.csv
 │── bronze_student_dropout.csv
 │── silver_student_dropout.csv
 │── gold_student_dropout_summary.csv
 │── README.md
-
+```
 
 
 # 📊 Results
