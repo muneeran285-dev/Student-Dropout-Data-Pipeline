@@ -71,6 +71,36 @@ Student-Dropout-Data-Pipeline/
 │── README.md
 ```
 
+# How to Run
+
+1. Open Student_Dropout_Data_Pipeline.ipynb using Google Colab or Jupyter Notebook.
+2. Upload Data dropout.csv to the notebook environment.
+3. Run all notebook cells in order.
+4. The pipeline generates the following output files:
+   - bronze_student_dropout.csv: raw ingested data.
+   - silver_student_dropout.csv: cleaned and validated data.
+   - gold_student_dropout_summary.csv: aggregated summary by student status.
+
+# Data Validation
+
+The notebook performs basic validation checks, including:
+
+- Checking the dataset dimensions and column names.
+- Checking missing values.
+- Checking duplicate records.
+- Verifying the target classes.
+- Cleaning and preparing the data before model training.
+
+# Layer Description
+
+- *Bronze Layer:* Stores the raw dataset without analytical transformations.
+- *Silver Layer:* Stores the cleaned dataset after removing duplicates and handling data-quality issues.
+- *Gold Layer:* Stores an aggregated summary of student outcomes for reporting and analysis.
+
+# Project Scope and Limitations
+
+This implementation is a local educational prototype developed with Python and Pandas.  
+Kafka, Delta Lake, Airflow, RAG, Great Expectations, and OpenLineage are not implemented in the current version. These technologies are considered possible future extensions.
 
 # 📊 Results
 
@@ -86,4 +116,4 @@ A Random Forest classifier was trained to predict student academic status and ev
 
 # ✅ Conclusion
 
-This project demonstrates a complete data engineering workflow integrated with machine learning. It provides a structured pipeline that transforms raw data into valuable insights for predicting student academic outcomes.
+This project demonstrates a local educational data pipeline integrated with machine learning. It transforms raw student data into cleaned and aggregated datasets and trains a Random Forest model to predict student academic outcomes.
